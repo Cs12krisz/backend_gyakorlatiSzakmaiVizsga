@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Csiger_Krisztián_backend_vizsgaGyakorlat")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+21b1bd81aa2f1e47bdbd408b05008f90d92401e4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+45684010aee652aba47c5ed0ae5448a8871547ea")]
 [assembly: System.Reflection.AssemblyProductAttribute("Csiger_Krisztián_backend_vizsgaGyakorlat")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Csiger_Krisztián_backend_vizsgaGyakorlat")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

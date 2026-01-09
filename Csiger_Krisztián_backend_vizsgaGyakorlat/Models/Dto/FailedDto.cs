@@ -13,5 +13,11 @@
         {
             Message = message;
         }
+
+        public FailedDto(string message, bool isidentification) 
+        {
+            Message = message;
+            Isidentification = isidentification;
+        }
     }
 }

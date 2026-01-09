@@ -46,8 +46,15 @@ namespace Csiger_Krisztián_backend_vizsgaGyakorlat.Controllers
                 if (response is FailedDto)
                 {
                     var result = response as FailedDto;
-                    return StatusCode(401, result.Message);
-
+                    if (result.Isidentification)
+                    {
+                        return StatusCode(401, result.Message);
+                    }
+                    else
+                    {
+                        return BadRequest(result.Message);
+                    }
+                    
                 }
 
                 return StatusCode(201, "Könyv hozzáadása sikeresen megtörtént.");

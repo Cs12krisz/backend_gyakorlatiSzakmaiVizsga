@@ -41,7 +41,7 @@ namespace Csiger_Krisztián_backend_vizsgaGyakorlat.Services
                 string identity = "FKB3F4FEA09CE43C";
                 if (uid != identity)
                 {
-                    return new FailedDto("Nincs jogosultsága új könyv felvételéhez!");
+                    return new FailedDto("Nincs jogosultsága új könyv felvételéhez!", true);
                 }
 
               

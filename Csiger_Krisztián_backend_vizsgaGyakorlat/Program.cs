@@ -25,7 +25,7 @@ namespace Csiger_Krisztián_backend_vizsgaGyakorlat
 
             
             var app = builder.Build();
-
+            app.UseCors(options => options.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
             {

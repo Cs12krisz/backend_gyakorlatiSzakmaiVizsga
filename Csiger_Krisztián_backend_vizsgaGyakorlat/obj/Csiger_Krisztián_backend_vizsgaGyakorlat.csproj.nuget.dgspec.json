@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\CsKrisz\\source\\repos\\Csiger_Krisztián_backend_vizsgaGyakorlat\\Csiger_Krisztián_backend_vizsgaGyakorlat\\Csiger_Krisztián_backend_vizsgaGyakorlat.csproj": {}
+    "C:\\Users\\Krisz\\Desktop\\backend_gyakorlatiSzakmaiVizsga\\Csiger_Krisztián_backend_vizsgaGyakorlat\\Csiger_Krisztián_backend_vizsgaGyakorlat.csproj": {}
   },
   "projects": {
-    "C:\\Users\\CsKrisz\\source\\repos\\Csiger_Krisztián_backend_vizsgaGyakorlat\\Csiger_Krisztián_backend_vizsgaGyakorlat\\Csiger_Krisztián_backend_vizsgaGyakorlat.csproj": {
+    "C:\\Users\\Krisz\\Desktop\\backend_gyakorlatiSzakmaiVizsga\\Csiger_Krisztián_backend_vizsgaGyakorlat\\Csiger_Krisztián_backend_vizsgaGyakorlat.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CsKrisz\\source\\repos\\Csiger_Krisztián_backend_vizsgaGyakorlat\\Csiger_Krisztián_backend_vizsgaGyakorlat\\Csiger_Krisztián_backend_vizsgaGyakorlat.csproj",
+        "projectUniqueName": "C:\\Users\\Krisz\\Desktop\\backend_gyakorlatiSzakmaiVizsga\\Csiger_Krisztián_backend_vizsgaGyakorlat\\Csiger_Krisztián_backend_vizsgaGyakorlat.csproj",
         "projectName": "Csiger_Krisztián_backend_vizsgaGyakorlat",
-        "projectPath": "C:\\Users\\CsKrisz\\source\\repos\\Csiger_Krisztián_backend_vizsgaGyakorlat\\Csiger_Krisztián_backend_vizsgaGyakorlat\\Csiger_Krisztián_backend_vizsgaGyakorlat.csproj",
-        "packagesPath": "C:\\Users\\CsKrisz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CsKrisz\\source\\repos\\Csiger_Krisztián_backend_vizsgaGyakorlat\\Csiger_Krisztián_backend_vizsgaGyakorlat\\obj\\",
+        "projectPath": "C:\\Users\\Krisz\\Desktop\\backend_gyakorlatiSzakmaiVizsga\\Csiger_Krisztián_backend_vizsgaGyakorlat\\Csiger_Krisztián_backend_vizsgaGyakorlat.csproj",
+        "packagesPath": "C:\\Users\\Krisz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Krisz\\Desktop\\backend_gyakorlatiSzakmaiVizsga\\Csiger_Krisztián_backend_vizsgaGyakorlat\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\CsKrisz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Krisz\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -85,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
