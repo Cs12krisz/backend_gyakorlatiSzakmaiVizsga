@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "Csiger_Kriszti\u00E1n_backend_vizsgaGyakorlat.Controllers.AuthorsController",
+    "Method": "GetAuthorsBooks",
+    "RelativePath": "api/Authors/feladat9/{authorname}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "authorname",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Csiger_Kriszti\u00E1n_backend_vizsgaGyakorlat.Controllers.BooksController",
+    "Method": "GetAllData",
+    "RelativePath": "api/Books/feladat10",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
