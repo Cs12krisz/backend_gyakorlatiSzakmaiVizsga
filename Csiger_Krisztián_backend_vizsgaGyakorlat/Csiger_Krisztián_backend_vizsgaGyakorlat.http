@@ -1,0 +1,6 @@
+@Csiger_Krisztián_backend_vizsgaGyakorlat_HostAddress = http://localhost:5279
+
+GET {{Csiger_Krisztián_backend_vizsgaGyakorlat_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
