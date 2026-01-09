@@ -25,7 +25,20 @@ namespace Csiger_Krisztián_backend_vizsgaGyakorlat.Services
                     
                 if (authorBooks != null)
                 {
-                    return authorBooks;
+                    var valasz = authorBooks.Select(au => new
+                    {
+                        au.AuthorId,
+                        au.AuthorName,
+                        Books = au.Books.Select(b => new
+                        {
+                            b.BookId,
+                            b.Title,
+                            b.PublishDate,
+                            b.AuthorId,
+                            b.CategoryId
+                        })
+                    });
+                    return valasz;
                 }
 
                 return new FailedDto();
