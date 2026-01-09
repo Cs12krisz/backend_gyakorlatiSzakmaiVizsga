@@ -15,6 +15,7 @@ namespace Csiger_Krisztián_backend_vizsgaGyakorlat
             builder.Services.AddDbContext<LibrarydbContext>();
             builder.Services.AddScoped<IAuthor, AuthorService>();
             builder.Services.AddScoped<IBook, BookService>();
+            builder.Services.AddScoped<ICategory, CategoryService>();
             builder.Services.AddControllers();
             builder.Services.AddControllers().AddJsonOptions(x => x.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles);
 

@@ -24,5 +24,15 @@
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Csiger_Kriszti\u00E1n_backend_vizsgaGyakorlat.Controllers.CategoryController",
+    "Method": "GetAllCategoriesBooks",
+    "RelativePath": "api/Category/feladat11",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
   }
 ]

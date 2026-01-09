@@ -38,6 +38,18 @@
           }
         }
       }
+    },
+    "/api/Category/feladat11": {
+      "get": {
+        "tags": [
+          "Category"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
     }
   },
   "components": { }
