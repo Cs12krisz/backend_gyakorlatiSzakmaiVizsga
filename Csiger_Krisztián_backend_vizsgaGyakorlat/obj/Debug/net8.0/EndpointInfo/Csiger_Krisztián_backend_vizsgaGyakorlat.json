@@ -27,6 +27,18 @@
         }
       }
     },
+    "/api/Authors/feladat12": {
+      "get": {
+        "tags": [
+          "Authors"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Books/feladat10": {
       "get": {
         "tags": [

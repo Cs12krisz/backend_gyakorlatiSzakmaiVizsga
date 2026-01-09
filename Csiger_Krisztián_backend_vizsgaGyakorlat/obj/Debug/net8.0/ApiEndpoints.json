@@ -1,6 +1,16 @@
 [
   {
     "ContainingType": "Csiger_Kriszti\u00E1n_backend_vizsgaGyakorlat.Controllers.AuthorsController",
+    "Method": "GetCountedAuthors",
+    "RelativePath": "api/Authors/feladat12",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Csiger_Kriszti\u00E1n_backend_vizsgaGyakorlat.Controllers.AuthorsController",
     "Method": "GetAuthorsBooks",
     "RelativePath": "api/Authors/feladat9/{authorname}",
     "HttpMethod": "GET",

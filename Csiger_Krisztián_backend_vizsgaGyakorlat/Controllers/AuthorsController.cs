@@ -1,9 +1,10 @@
 ﻿using Csiger_Krisztián_backend_vizsgaGyakorlat.Models;
+using Csiger_Krisztián_backend_vizsgaGyakorlat.Models.Dto;
+using Csiger_Krisztián_backend_vizsgaGyakorlat.Services;
+using K4os.Compression.LZ4.Internal;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Csiger_Krisztián_backend_vizsgaGyakorlat.Services;
-using Csiger_Krisztián_backend_vizsgaGyakorlat.Models.Dto;
 
 namespace Csiger_Krisztián_backend_vizsgaGyakorlat.Controllers
 {
@@ -35,6 +36,26 @@ namespace Csiger_Krisztián_backend_vizsgaGyakorlat.Controllers
             {
 
                 return NotFound(ex.Message);
+            }
+
+        }
+
+        [HttpGet("feladat12")]
+        public async Task<ActionResult> GetCountedAuthors()
+        {
+            try
+            {
+                var response = await _author.GetCountedAuthors();
+                if (response is FailedDto)
+                {
+                    return BadRequest("Nem lehet csatlakozni az adatbázishoz!");
+                }
+                return Ok($"Szerzők száma: {response}");
+            }
+            catch (Exception ex)
+            {
+
+                return BadRequest("Nem lehet csatlakozni az adatbázishoz!");
             }
 
         }

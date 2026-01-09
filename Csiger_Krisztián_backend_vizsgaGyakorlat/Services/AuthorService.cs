@@ -49,5 +49,18 @@ namespace Csiger_Krisztián_backend_vizsgaGyakorlat.Services
                 return new FailedDto(ex.Message);
             }
         }
+
+        public async Task<object> GetCountedAuthors()
+        {
+            try
+            {
+                var authorsCount = _context.Authors.Count();
+                return authorsCount;
+            }
+            catch (Exception ex)
+            {
+                return new FailedDto(ex.Message);
+            }
+        }
     }
 }
