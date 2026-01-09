@@ -35,5 +35,29 @@ namespace Csiger_Krisztián_backend_vizsgaGyakorlat.Controllers
 
             }
         }
+        
+        [HttpPost("feladat13")]
+        public async Task<ActionResult> PostBookWithAuthor(string uid, [FromBody] PostBookDto postBookDto)
+        {
+            try
+            {
+                var response = await _book.PostDataWithAuthor(uid, postBookDto);
+
+                if (response is FailedDto)
+                {
+                    var result = response as FailedDto;
+                    return StatusCode(401, result.Message);
+
+                }
+
+                return StatusCode(201, "Könyv hozzáadása sikeresen megtörtént.");
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+
+            }
+        }
+        
     }
 }

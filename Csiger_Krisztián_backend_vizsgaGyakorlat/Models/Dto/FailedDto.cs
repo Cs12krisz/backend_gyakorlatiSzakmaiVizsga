@@ -2,9 +2,10 @@
 {
     public class FailedDto
     {
-        public bool Failed { get; private set; } = true;
 
         public string Message { get; set; }
+
+        public bool Isidentification { get; set; }
 
         public FailedDto() { }
 

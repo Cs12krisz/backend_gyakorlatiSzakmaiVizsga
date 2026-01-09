@@ -36,6 +36,27 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Csiger_Kriszti\u00E1n_backend_vizsgaGyakorlat.Controllers.BooksController",
+    "Method": "PostBookWithAuthor",
+    "RelativePath": "api/Books/feladat13",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "uid",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "postBookDto",
+        "Type": "Csiger_Kriszti\u00E1n_backend_vizsgaGyakorlat.Models.Dto.PostBookDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Csiger_Kriszti\u00E1n_backend_vizsgaGyakorlat.Controllers.CategoryController",
     "Method": "GetAllCategoriesBooks",
     "RelativePath": "api/Category/feladat11",

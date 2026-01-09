@@ -33,5 +33,6 @@ namespace Csiger_Krisztián_backend_vizsgaGyakorlat.Controllers
                 return BadRequest(ex.Message);
             }
         }
+
     }
 }
